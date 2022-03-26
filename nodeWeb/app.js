@@ -2,11 +2,11 @@
  * @Author: willwil
  * @Date: 2021-12-29 20:37:01
  * @LastEditors: willwil
- * @LastEditTime: 2021-12-29 20:56:00
+ * @LastEditTime: 2022-03-27 00:58:04
  * @Description: 业务文件
  */
 const querystring = require('querystring');
-const handlerBlogRouter = require('src/routes/blog');
+const handlerBlogRouter = require('./src/routes/blog');
 
 const serverHandler = (req, res) => {
     // 响应头
